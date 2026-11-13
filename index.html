@@ -1,568 +1,319 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!-- saved from url=(0062)https://web.archive.org/web/20170603211310/http://www.isfe.eu/ -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="js" style="--wm-toolbar-height: 67px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./index_files/ga.js.download"></script><script src="./index_files/athena.js.download" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app222.us.archive.org';v.server_ms=1203;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="./index_files/bundle-playback.js.download" charset="utf-8"></script>
-<script type="text/javascript" src="./index_files/wombat.js.download" charset="utf-8"></script>
-<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
-<script type="text/javascript" src="./index_files/ruffle.js.download"></script>
-<script type="text/javascript">
-    __wm.init("https://web.archive.org/web");
-  __wm.wombat("http://www.isfe.eu/","20170603211310","https://web.archive.org/","web","https://web-static.archive.org/_static/",
-	      "1496524390");
-</script>
-<link rel="stylesheet" type="text/css" href="./index_files/banner-styles.css">
-<link rel="stylesheet" type="text/css" href="./index_files/iconochive.css">
-<!-- End Wayback Rewrite JS Include -->
-
-
-  <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
-<title>Interactive Software Federation of Europe</title>
-  
-<link rel="shortcut icon" href="https://web.archive.org/web/20170603211310im_/http://www.isfe.eu/sites/all/themes/isfe/favicon.ico" type="image/x-icon">
-<link rel="alternate" type="application/rss+xml" title="News" href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/rss_news.xml">
-  <link type="text/css" rel="stylesheet" media="all" href="./index_files/css_0d169dc88b36f9b062855432c71b8341.css">
-<link type="text/css" rel="stylesheet" media="print" href="./index_files/css_662ab0563625be8798a9afaf2eabdca3.css">
-<link type="text/css" rel="stylesheet" media="screen" href="./index_files/css_90d250859fdaeea764b52339e89ae3d9.css">
-<!--[if lt IE 8]>
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/isfe/css/lt-ie8.css?i" />
-<![endif]-->
-<!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/isfe/css/ie6.css?i" />
-<![endif]-->
-<!--[if lt IE 9]>
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/isfe/css/css3pie.css?i" />
-<![endif]-->
-  <script type="text/javascript" src="./index_files/js_565584d3fabc6fc67c2a84cced19ac0a.js.download"></script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/": true } });
-//--><!]]>
-</script>
-  <!--[if (gte IE 6)&(lte IE 8)]>
-  	<script type="text/javascript" src="/sites/all/themes/isfe/js/selectivizr.js"></script>
-  <![endif]-->
-  <!--[if IE 6]>
-	  <script type="text/javascript" src="/sites/all/themes/isfe/js/DD_belatedPNG.js"></script>
-	  <script type="text/javascript" src="/sites/all/themes/isfe/js/DD_belatedPNG.config.js"></script>
-  <![endif]-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071b3a">
+  <meta name="description" content="A modern concept landing page for ISFE — Europe's video games industry.">
+  <title>ISFE — Europe's Video Games Industry</title>
+  <style>
+    :root {
+      --navy: #071b3a;
+      --blue: #1458c8;
+      --cyan: #55d6e8;
+      --ink: #17243a;
+      --muted: #66758b;
+      --pale: #f3f7fc;
+      --white: #fff;
+      --line: #e4ebf4;
+      --shadow: 0 18px 50px rgba(7, 27, 58, .10);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--white);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(1160px, calc(100% - 44px)); margin: auto; }
+    .topbar { background: var(--navy); color: #d9e7ff; font-size: 12px; letter-spacing: .04em; }
+    .topbar .container { display: flex; justify-content: space-between; padding: 9px 0; gap: 16px; }
+    header { position: sticky; top: 0; z-index: 10; background: rgba(255,255,255,.94); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+    .nav { min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: inline-flex; align-items: center; gap: 12px; flex-shrink: 0; }
+    .brand-mark { width: 48px; height: 48px; }
+    .brand-name { color: var(--navy); font-size: 23px; line-height: 1; font-weight: 900; letter-spacing: .08em; }
+    .brand-tag { color: #718096; font-size: 9px; font-weight: 800; letter-spacing: .11em; margin-top: 5px; }
+    .nav-links { display: flex; align-items: center; gap: 30px; color: #35445a; font-size: 14px; font-weight: 650; }
+    .nav-links a:hover { color: var(--blue); }
+    .nav-cta, .btn { display: inline-flex; align-items: center; justify-content: center; border-radius: 999px; padding: 12px 21px; background: var(--blue); color: white; font-size: 14px; font-weight: 750; transition: .2s; }
+    .nav-cta:hover, .btn:hover { background: #0d43a0; transform: translateY(-2px); }
+    .menu-toggle { display: none; border: 0; background: transparent; font-size: 26px; color: var(--navy); cursor: pointer; }
+    .hero { position: relative; overflow: hidden; color: white; background: radial-gradient(circle at 82% 25%, #1d62b8 0, transparent 30%), linear-gradient(120deg, #071b3a 0%, #0a2b5b 60%, #104b91 100%); }
+    .hero:after { content: ""; position: absolute; width: 540px; height: 540px; right: -180px; bottom: -330px; border: 1px solid rgba(255,255,255,.18); border-radius: 50%; box-shadow: 0 0 0 55px rgba(255,255,255,.035), 0 0 0 110px rgba(255,255,255,.025); }
+    .hero-grid { position: relative; z-index: 1; min-height: 570px; display: grid; grid-template-columns: 1.12fr .88fr; align-items: center; gap: 55px; padding-top: 68px; padding-bottom: 76px; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; color: #9cebf3; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; font-weight: 850; }
+    .eyebrow:before { content: ""; width: 26px; height: 2px; background: var(--cyan); }
+    h1 { margin: 22px 0 20px; max-width: 700px; font-size: clamp(42px, 5.4vw, 68px); line-height: 1.04; letter-spacing: -.045em; }
+    h1 span { color: var(--cyan); }
+    .hero-copy { max-width: 590px; color: #c9d8ed; font-size: 17px; line-height: 1.8; }
+    .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 32px; }
+    .btn-light { background: white; color: var(--navy); }
+    .btn-light:hover { background: #e9f3ff; }
+    .text-link { color: white; font-size: 14px; font-weight: 700; padding: 10px 4px; }
+    .hero-art { min-height: 350px; display: grid; place-items: center; position: relative; }
+    .orbit { width: min(370px, 90%); aspect-ratio: 1; border: 1px solid rgba(153,221,255,.35); border-radius: 50%; display: grid; place-items: center; position: relative; box-shadow: 0 0 80px rgba(48,153,255,.12), inset 0 0 65px rgba(48,153,255,.08); }
+    .orbit:before, .orbit:after { content: ""; position: absolute; border: 1px solid rgba(153,221,255,.23); border-radius: 50%; }
+    .orbit:before { inset: 34px; }
+    .orbit:after { inset: 72px; }
+    .game-symbol { position: relative; z-index: 1; width: 155px; height: 155px; border-radius: 38px; display: grid; place-items: center; background: linear-gradient(145deg, #fff, #ccecff); box-shadow: 0 25px 70px rgba(0,0,0,.25); transform: rotate(-8deg); }
+    .game-symbol svg { width: 96px; }
+    .float-chip { position: absolute; z-index: 2; padding: 10px 15px; color: white; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.25); backdrop-filter: blur(12px); border-radius: 12px; font-size: 12px; font-weight: 750; }
+    .chip-one { top: 18%; right: -1%; }
+    .chip-two { bottom: 17%; left: -3%; }
+    .stats { background: white; border-bottom: 1px solid var(--line); }
+    .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); padding: 28px 0; }
+    .stat { padding: 5px 32px; border-right: 1px solid var(--line); }
+    .stat:first-child { padding-left: 0; }
+    .stat:last-child { border: 0; }
+    .stat strong { display: block; color: var(--navy); font-size: 25px; letter-spacing: -.03em; }
+    .stat span { color: var(--muted); font-size: 13px; }
+    section { padding: 96px 0; }
+    .section-head { max-width: 680px; margin-bottom: 42px; }
+    .kicker { color: var(--blue); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; font-weight: 850; }
+    h2 { margin: 12px 0 15px; color: var(--navy); font-size: clamp(30px, 4vw, 43px); line-height: 1.13; letter-spacing: -.035em; }
+    .section-head p, .about-copy { color: var(--muted); font-size: 16px; line-height: 1.85; }
+    .about-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 80px; align-items: center; }
+    .about-visual { min-height: 370px; border-radius: 25px; padding: 36px; display: flex; align-items: end; color: white; background: linear-gradient(145deg, rgba(7,27,58,.1), rgba(7,27,58,.86)), radial-gradient(circle at 25% 25%, #5de0ec, transparent 32%), linear-gradient(135deg, #1c6bc2, #071b3a); box-shadow: var(--shadow); position: relative; overflow: hidden; }
+    .about-visual:before { content: "ISFE"; position: absolute; top: 28px; right: -12px; font-size: 120px; font-weight: 950; color: rgba(255,255,255,.09); letter-spacing: -.08em; }
+    .about-visual div { position: relative; z-index: 1; }
+    .about-visual strong { display: block; font-size: 24px; max-width: 260px; line-height: 1.2; }
+    .about-visual span { display: block; color: #c9e7ff; font-size: 13px; margin-top: 10px; }
+    .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .feature { border: 1px solid var(--line); border-radius: 18px; padding: 28px; background: white; transition: .2s; }
+    .feature:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
+    .feature-icon { width: 48px; height: 48px; border-radius: 14px; display: grid; place-items: center; background: #eaf3ff; color: var(--blue); font-size: 22px; }
+    .feature h3 { color: var(--navy); margin: 20px 0 8px; font-size: 18px; }
+    .feature p { color: var(--muted); font-size: 14px; line-height: 1.8; margin: 0; }
+    .industry { background: var(--pale); }
+    .industry-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+    .industry-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .industry-tile { min-height: 145px; border-radius: 18px; background: white; padding: 22px; box-shadow: 0 8px 24px rgba(7,27,58,.04); }
+    .industry-tile:nth-child(2) { transform: translateY(22px); }
+    .industry-tile:nth-child(3) { transform: translateY(-12px); }
+    .industry-tile b { display: block; color: var(--blue); font-size: 25px; margin-bottom: 6px; }
+    .industry-tile span { color: var(--muted); font-size: 13px; }
+    .industry-copy p { color: var(--muted); line-height: 1.85; }
+    .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .news-card { overflow: hidden; border: 1px solid var(--line); border-radius: 18px; background: white; }
+    .news-art { height: 155px; display: grid; place-items: center; color: white; font-size: 44px; background: linear-gradient(135deg, #0d2b58, #2479c9); }
+    .news-card:nth-child(2) .news-art { background: linear-gradient(135deg, #087d91, #42c4ce); }
+    .news-card:nth-child(3) .news-art { background: linear-gradient(135deg, #47328a, #9274d9); }
+    .news-content { padding: 23px; }
+    .news-content small { color: var(--blue); text-transform: uppercase; letter-spacing: .12em; font-size: 10px; font-weight: 850; }
+    .news-content h3 { color: var(--navy); font-size: 18px; line-height: 1.35; margin: 10px 0; }
+    .news-content p { color: var(--muted); font-size: 13px; line-height: 1.75; }
+    .contact { color: white; background: var(--navy); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+    .contact h2 { color: white; }
+    .contact p { color: #b9cbe2; line-height: 1.8; }
+    .contact-details { display: grid; gap: 15px; }
+    .contact-item { border: 1px solid rgba(255,255,255,.14); border-radius: 14px; padding: 17px 20px; background: rgba(255,255,255,.05); }
+    .contact-item small { display: block; color: #8faed2; font-size: 10px; text-transform: uppercase; letter-spacing: .13em; font-weight: 800; }
+    .contact-item span, .contact-item a { color: white; font-size: 14px; }
+    footer { background: #041329; color: #9fb1c9; padding: 26px 0; font-size: 12px; }
+    .footer-row { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    .footer-row a { color: #dce9fa; }
+    @media (max-width: 850px) {
+      .nav-links { gap: 16px; font-size: 13px; }
+      .hero-grid { grid-template-columns: 1fr .8fr; gap: 20px; }
+      .about-grid, .industry-grid { gap: 38px; }
+    }
+    @media (max-width: 680px) {
+      .topbar .container { justify-content: center; text-align: center; }
+      .topbar .container span:last-child { display: none; }
+      .nav { min-height: 70px; }
+      .menu-toggle { display: block; }
+      .nav-cta { display: none; }
+      .nav-links { display: none; position: absolute; top: 70px; left: 0; right: 0; padding: 20px 24px 25px; background: white; border-bottom: 1px solid var(--line); flex-direction: column; align-items: flex-start; }
+      .nav-links.open { display: flex; }
+      .hero-grid { grid-template-columns: 1fr; padding-top: 62px; }
+      .hero-art { min-height: 300px; }
+      .orbit { width: 280px; }
+      .game-symbol { width: 125px; height: 125px; }
+      .stats-grid { grid-template-columns: 1fr; gap: 16px; }
+      .stat, .stat:first-child { padding: 0; border: 0; }
+      section { padding: 70px 0; }
+      .about-grid, .industry-grid, .contact-grid { grid-template-columns: 1fr; }
+      .about-visual { min-height: 280px; }
+      .feature-grid, .news-grid { grid-template-columns: 1fr; }
+      .industry-panel { margin-bottom: 25px; }
+      .industry-tile:nth-child(2), .industry-tile:nth-child(3) { transform: none; }
+    }
+  </style>
 </head>
-<body class="front not-logged-in page-home no-sidebars"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
-<script>__wm.rw(0);</script>
-<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 67px;" toolbar-mode="auto"><template shadowrootmode="closed"><div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;" class="">
-<div id="donato" style="position:relative;width:100%;height:0;">
-  <div id="donato-base">
-    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20170603211310/http%3A//www.isfe.eu/" scrolling="no" frameborder="0" style="width:100%; height:100%">
-    </iframe>
-  </div>
-</div><div id="wm-ipp-inside">
-  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;" nav="async">
-    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
-      <a href="https://web.archive.org/web/" title="Wayback Machine home page"><img src="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-100.png, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0"></a>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <span>EUROPE'S VIDEO GAMES INDUSTRY</span>
+      <span>Promoting a responsible and thriving games ecosystem</span>
     </div>
-    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
-      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="https://web.archive.org/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.isfe.eu/" onfocus="this.focus();this.select();" style="flex:1;" autocomplete="off"><input type="hidden" name="type" value="replay"><input type="hidden" name="date" value="20170603211310"><input type="submit" value="Go">
-      </form>
-      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
-                <div class="s" id="wm-nav-captures" style="flex:1;"><a class="t" href="https://web.archive.org/web/*/http://www.isfe.eu/" title="See a list of every capture for this URL">569 captures</a><div class="r" title="Timespan for captures of this URL">26 Apr 2007 - 1 Oct 2026</div></div>
-        <div class="k">
-          <a href="https://web.archive.org/web/20061201000000/http://www.isfe.eu/" id="wm-graph-anchor">
-            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
-              <canvas id="wm-sparkline-canvas" width="775" height="27" border="0"></canvas>
-            <div class="yt" style="display: none; width: 25px; height: 27px; left: 250px;"></div><div class="mt" style="display: none; width: 2px; height: 27px; left: 273px;"></div></div>
-          </a>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="ISFE home">
+        <!-- Original text-and-symbol concept mark; replace with the approved official logo if required. -->
+        <svg class="brand-mark" viewBox="0 0 64 64" role="img" aria-label="ISFE concept logo">
+          <path d="M32 3 58 18v28L32 61 6 46V18Z" fill="#1458c8"/>
+          <path d="M32 11 51 22v20L32 53 13 42V22Z" fill="none" stroke="#55d6e8" stroke-width="2"/>
+          <path d="M23 23h18M23 32h18M23 41h11" stroke="white" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        <div>
+          <div class="brand-name">ISFE</div>
+          <div class="brand-tag">EUROPE'S VIDEO GAMES INDUSTRY</div>
+        </div>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" onclick="toggleMenu()">☰</button>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#about" onclick="closeMenu()">About</a>
+        <a href="#work" onclick="closeMenu()">Our Work</a>
+        <a href="#industry" onclick="closeMenu()">The Industry</a>
+        <a href="#news" onclick="closeMenu()">News</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Contact us</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Interactive Software Federation of Europe</div>
+          <h1>Powering the future of <span>video games</span> in Europe.</h1>
+          <p class="hero-copy">We represent Europe's video games industry, championing its creative potential and supporting a responsible, innovative and thriving games ecosystem.</p>
+          <div class="hero-actions">
+            <a class="btn btn-light" href="#about">Discover ISFE</a>
+            <a class="text-link" href="#work">Explore our work →</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit">
+            <div class="game-symbol">
+              <svg viewBox="0 0 120 90" fill="none">
+                <path d="M29 25h62c13 0 21 10 24 25l4 19c2 10-8 17-17 11L84 66H36L18 80C9 86-1 79 1 69l4-19c3-15 11-25 24-25Z" fill="#1458c8"/>
+                <path d="M30 40v22M19 51h22" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                <circle cx="83" cy="45" r="5" fill="#55d6e8"/>
+                <circle cx="98" cy="57" r="5" fill="#55d6e8"/>
+              </svg>
+            </div>
+            <span class="float-chip chip-one">CREATIVITY</span>
+            <span class="float-chip chip-two">INNOVATION</span>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="n">
-      <table>
-        <tbody>
-          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
-          <tr class="m">
-            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170429155329/http://www.isfe.eu/" title="15:53:29 Apr 29, 2017">Apr</a></td>
-            <td class="c" id="displayMonthEl" title="You are here: 21:13:10 Jun 03, 2017">Jun</td>
-            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20170726121905/http://www.isfe.eu/" title="12:19:05 Jul 26, 2017">Jul</a></td>
-          </tr>
-          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
-          <tr class="d">
-            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170529175351/http://www.isfe.eu/" title="17:53:51 May 29, 2017"><span class="ta"></span></a></td>
-            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 21:13:10 Jun 03, 2017">03</td>
-            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20170613064433/http://www.isfe.eu/" title="06:44:33 Jun 13, 2017"><span class="ta"></span></a></td>
-          </tr>
-          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
-          <tr class="y">
-            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20160513180258/http://www.isfe.eu/" title="18:02:58 May 13, 2016">2016</a></td>
-            <td class="c" id="displayYearEl" title="You are here: 21:13:10 Jun 03, 2017">2017</td>
-            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20180612231413/http://www.isfe.eu/" title="23:14:13 Jun 12, 2018">2018</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
-      <div id="wm-btns" style="text-align:right;height:23px;">
-                <span class="xxs">
-          <div id="wm-save-snapshot-success">success</div>
-          <div id="wm-save-snapshot-fail">fail</div>
-          <a id="wm-save-snapshot-open" href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/#" title="Share via My Web Archive" style="display: inline-block;">
-            <span class="iconochive-web"></span>
-          </a>
-          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in" style="display: none;">
-            <span class="iconochive-person"></span>
-          </a>
-          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
-        </span>
-                <a class="xxs" href="https://help.archive.org/help/category/the-wayback-machine/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
-        <a id="wm-tb-close" href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
-      </div>
-      <div id="wm-share" class="xxs">
-        <a href="https://web.archive.org/web/20170603211310/http://web.archive.org/screenshot/http://www.isfe.eu/" id="wm-screenshot" title="screenshot" style="visibility: hidden;">
-          <span class="wm-icon-screen-shot"></span>
-        </a>
-        <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/#" id="wm-video" title="video">
-          <span class="iconochive-movies"></span>
-        </a>
-        <a id="wm-share-facebook" href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/#" data-url="https://web.archive.org/web/20170603211310/http://www.isfe.eu/" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
-        <a id="wm-share-twitter" href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/#" data-url="https://web.archive.org/web/20170603211310/http://www.isfe.eu/" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
-      </div>
-      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
-        <a id="wm-expand" class="wm-btn wm-closed" href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+    </section>
+
+    <div class="stats">
+      <div class="container stats-grid">
+        <div class="stat"><strong>18 countries</strong><span>National trade association network</span></div>
+        <div class="stat"><strong>Global leaders</strong><span>Video game companies among our members</span></div>
+        <div class="stat"><strong>Since 1998</strong><span>Representing Europe's games industry</span></div>
       </div>
     </div>
-  </div>
-    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
-        <div id="wm-capinfo-notice" source="api"></div>
-                <div id="wm-capinfo-collected-by" source="api" trigger="hover" token="MaWU9y2D4y9jsAFpz9CbdLblRc3ALTMD5PeH2ZDLbpmPk6VVzoPfJzG1y-4phIvbkgPHhzfj"></div>
-    <div id="wm-capinfo-timestamps">
-    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center;padding:2px 0;" title="Timestamps for the elements of this page">TIMESTAMPS</div>
-    <div>
-      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
-      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="https://web-static.archive.org/_static/images/loading.gif" alt="loading"></div>
+
+    <section id="about">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <div><strong>A united voice for Europe's games industry.</strong><span>Interactive Software Federation of Europe</span></div>
+        </div>
+        <div>
+          <div class="kicker">Who we are</div>
+          <h2>Bringing Europe's video games ecosystem together.</h2>
+          <p class="about-copy">ISFE represents the video games industry in Europe. Our network brings together national trade associations across Europe and leading video game companies, creating a shared voice for the sector.</p>
+          <p class="about-copy">We work with policymakers and stakeholders to support an environment where creativity, investment, innovation and responsible gaming can flourish.</p>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" style="background:#fbfdff">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">What we do</div>
+          <h2>Supporting a strong and responsible games ecosystem.</h2>
+          <p>We work across policy, research and industry collaboration to help the European video games sector grow and contribute to society.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature"><div class="feature-icon">⚖</div><h3>Policy & advocacy</h3><p>Engaging with European decision-makers and stakeholders on issues that shape the future of video games.</p></article>
+          <article class="feature"><div class="feature-icon">📊</div><h3>Research & insights</h3><p>Sharing knowledge and data that help explain the economic and cultural contribution of the games sector.</p></article>
+          <article class="feature"><div class="feature-icon">🛡</div><h3>Player protection</h3><p>Supporting responsible practices and initiatives that help players and families enjoy games with confidence.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="industry" id="industry">
+      <div class="container industry-grid">
+        <div class="industry-panel" aria-label="Industry themes">
+          <div class="industry-tile"><b>01</b><span>Creative industries</span></div>
+          <div class="industry-tile"><b>02</b><span>Digital innovation</span></div>
+          <div class="industry-tile"><b>03</b><span>Jobs & investment</span></div>
+          <div class="industry-tile"><b>04</b><span>Responsible play</span></div>
+        </div>
+        <div class="industry-copy">
+          <div class="kicker">The industry</div>
+          <h2>More than entertainment. A creative force.</h2>
+          <p>Video games combine art, technology, storytelling and entrepreneurship. Across Europe, studios, publishers and technology partners contribute to a dynamic digital and cultural landscape.</p>
+          <p>ISFE works to ensure that the industry's voice is heard and its potential is understood.</p>
+          <a class="btn" href="#contact">Connect with us</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">Latest updates</div>
+          <h2>News & perspectives</h2>
+          <p>Explore topics shaping the European video games landscape.</p>
+        </div>
+        <div class="news-grid">
+          <article class="news-card"><div class="news-art">◎</div><div class="news-content"><small>Industry</small><h3>The evolving video games landscape in Europe</h3><p>Discover the trends, creativity and innovation shaping the sector.</p></div></article>
+          <article class="news-card"><div class="news-art">✳</div><div class="news-content"><small>Responsibility</small><h3>Building a positive play experience</h3><p>How collaboration and responsible practices can support players and families.</p></div></article>
+          <article class="news-card"><div class="news-art">⌘</div><div class="news-content"><small>Policy</small><h3>Working together for digital innovation</h3><p>Why constructive dialogue matters for Europe's digital future.</p></div></article>
+        </div>
+        <p style="margin-top:18px;color:#8290a3;font-size:12px">Demo content: replace these cards with approved ISFE news articles and links before publishing.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <div class="kicker" style="color:#55d6e8">Contact</div>
+          <h2>Let's shape the future of games in Europe.</h2>
+          <p>For enquiries about ISFE, its work or the European video games industry, get in touch with the team.</p>
+          <a class="btn btn-light" href="mailto:info@isfe.eu">Email ISFE</a>
+        </div>
+        <div class="contact-details">
+          <div class="contact-item"><small>Email</small><a href="mailto:info@isfe.eu">info@isfe.eu</a></div>
+          <div class="contact-item"><small>Address</small><span>Rue Guimard 15, 1040 Brussels, Belgium</span></div>
+          <div class="contact-item"><small>Website</small><a href="https://www.isfe.eu/">www.isfe.eu</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span>© <span id="year"></span> ISFE concept landing page. All rights reserved.</span>
+      <span>Designed as an independent website concept · <a href="#home">Back to top ↑</a></span>
     </div>
-    </div>
-  </div></div></div><link rel="stylesheet" type="text/css" href="./index_files/banner-styles.css"><link rel="stylesheet" type="text/css" href="./index_files/iconochive.css"><div class="wb-autocomplete-suggestions "></div></template>
-</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20170603211310/http://www.isfe.eu/</div>
-<script type="text/javascript">//<![CDATA[
-__wm.bt(775,27,25,2,"web","http://www.isfe.eu/","20170603211310",1996,"https://web-static.archive.org/_static/",["https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3","https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"], false);
-  __wm.rw(1);
-//]]></script>
-<!-- END WAYBACK TOOLBAR INSERT -->
- 
-
-
-
-<div id="page"> <!-- everything except footer -->
-   <div id="top-header-wrap">
-   		<div class="content container_12 clearfix">
-   			<h2 class="push_3">Interactive Software Federation of Europe</h2>
-   			
-   					        <div id="search-box"><form action="https://web.archive.org/web/20170603211310/http://www.isfe.eu/" accept-charset="UTF-8" method="post" id="search-theme-form">
-<div><div id="search" class="container-inline">
-  <div class="form-item" id="edit-search-theme-form-1-wrapper">
- <label for="edit-search-theme-form-1">Search this site: </label>
- <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" data-sharkid="__0">
-</div>
-<input type="submit" name="op" id="edit-submit" value="Search" class="form-submit">
-<input type="hidden" name="form_build_id" id="form-NTWi9rDG_DJAYmr7lBpCcWUM064jYDDM7dY1pdVK08Y" value="form-NTWi9rDG_DJAYmr7lBpCcWUM064jYDDM7dY1pdVK08Y">
-<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form">
-</div>
-
-</div></form>
-</div>
-		       		</div>
-   </div><!-- /#top-header-wrap -->
-   
-   <div id="bottom-header-wrap">
-	    <div id="header" class="container_12 clearfix">
-	
-		      		        <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/" title="Home" rel="home" id="logo"><img src="./index_files/logo.png" alt="Home"></a>
-		      		      
-
-	
-			  <div id="navigation" class="clearfix grid_9">
-			     	 			 			 <div id="primary" class="clearfix">
-			   			   <div id="block-menu_block-1" class="block block-menu_block">
-
-  <div class="content">
-    <div class="menu-block-1 menu-name-primary-links parent-mlid-0 menu-level-1">
-  <ul class="menu"><li class="leaf first menu-mlid-540 has-children"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe" title="About ISFE">About ISFE</a></li>
-<li class="leaf menu-mlid-565 has-children"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/industry-facts" title="Industry Facts">Industry Facts</a></li>
-<li class="leaf menu-mlid-564 has-children"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/objectives" title="Objectives">Objectives</a></li>
-<li class="leaf menu-mlid-2127"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/events">Events</a></li>
-<li class="leaf last menu-mlid-566"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/contact" title="Contact">Contact</a></li>
-</ul></div>
-  </div>
-</div>
-			 			 </div>
-						
-		      </div>
-		     
-		
-			  			  	<div id="header-region">
-			          <div id="block-views-quotes-block_1" class="block block-views">
-
-  <div class="content">
-    <div class="view view-quotes view-id-quotes view-display-id-block_1 view-dom-id-2">
-    
-  
-  
-      <div class="view-content">
-          <div class="quote">
-      
-      <p>
-  
-    
-      Representing the European
-video games industry.
-      </p>
-  
-    </div>
-      </div>
-  
-  
-  
-  
-  
-  
-</div>   </div>
-</div>
-			    </div>
-			  	
-	    </div> <!-- /#header -->
-   </div> <!-- /#bottom-header-wrap -->
-
-	
-    <div id="main-wrapper" class="clearfix container_12">
-					
-	      <div id="content" class="clearfix ">
-			    			
-			
-	        	        
-	        	        
-	        	        
-	        	
-						
-			<!-- front region -->
-					       <div id="front-region">  <div id="block-nodeasblock-121" class="block block-nodeasblock">
-  <h2><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/node/121">ISFE</a></h2>
-
-  <div class="content">
-    <p>The Interactive Software Federation of Europe represents the interests of the video game publishers towards the European Union and international institutions.</p><div><a class="more-link" href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe">Read more</a></div>  </div>
-</div>
-</div>
-		    		    <!-- end front region -->
-			
-	        <div id="content-area" class="clearfix">
-	          <div class="view view-banner-items view-id-banner_items view-display-id-page_1 view-dom-id-1">
-    
-  
-  
-      <div class="view-content">
-          <div class="banner-item grid_3 clearfix first odd">
-      
-      <div class="image">
-  
-    
-      <img src="./index_files/gamesteaching.jpg" alt="Education" title="Education" class="imagecache imagecache-banner_item imagecache-default imagecache-banner_item_default" width="220" height="215">
-      </div>
-  
-
-      <div class="meta">
-  
-    
-      <h2>Education</h2>
-<p>How games can play a helpful role in a school environment...</p>
-<a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/objects/education">Education</a>
-      </div>
-  
-    </div>
-      <div class="banner-item grid_3 clearfix even">
-      
-      <div class="image">
-  
-    
-      <img src="./index_files/policy3.jpg" alt="Public Policy" title="Public Policy" class="imagecache imagecache-banner_item imagecache-default imagecache-banner_item_default" width="220" height="215">
-      </div>
-  
-
-      <div class="meta">
-  
-    
-      <h2>Public Policy</h2>
-<p>Defending the industry's interests in many different fields</p>
-<a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/objectives/public-policy">Public Policy</a>
-      </div>
-  
-    </div>
-      <div class="banner-item grid_3 clearfix last odd">
-      
-      <div class="image">
-  
-    
-      <img src="./index_files/pegi-for-app3.jpg" alt="Age Rating" title="Age Rating" class="imagecache imagecache-banner_item imagecache-default imagecache-banner_item_default" width="220" height="215">
-      </div>
-  
-
-      <div class="meta">
-  
-    
-      <h2>Age Rating</h2>
-<p>Helping parents make informed decisions when buying games</p>
-<a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/objects/age-rating">Age Rating</a>
-      </div>
-  
-    </div>
-      </div>
-  
-  
-  
-  
-  
-  
-</div> 	          
-	           	        </div><!--  /#content-area -->
-			
-	      			        <div id="content-bottom" class="clearfix">  <div id="block-views-News-block_1" class="block block-views">
-  <h2>News</h2>
-
-  <div class="content">
-    <div class="view view-News view-id-News view-display-id-block_1 front-news view-dom-id-3">
-    
-  
-  
-      <div class="view-content">
-          <div class="news-item clearfix first odd">
-      
-      <div class="image">
-  
-    
-      <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe/news/proposed-geo-blocking-regulation-cross-sectoral-letter" class="imagecache imagecache-news_image_teaser imagecache-linked imagecache-news_image_teaser_linked"><img src="./index_files/geoblocking.jpg" alt="Proposed Geo-blocking Regulation: Cross-sectoral Letter " title="Proposed Geo-blocking Regulation: Cross-sectoral Letter " class="imagecache imagecache-news_image_teaser" width="160" height="160"></a>
-      </div>
-  
-
-      <h3>
-  
-    
-      <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe/news/proposed-geo-blocking-regulation-cross-sectoral-letter">Proposed Geo-blocking Regulation:...</a>
-      </h3>
-  
-
-      <div class="post-date">
-  
-    
-      02/06/2017 - 14:39
-      </div>
-  
-
-      <div class="teaser">
-  
-    
-      In a cross-sectoral letter about the ongoing trilogue negotiations on the proposed Geo-blocking Regulation,...
-      </div>
-  
-    </div>
-      <div class="news-item clearfix last even">
-      
-      <div class="image">
-  
-    
-      <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe/news/icdp-issues-joint-letter-e-privacy-regulation" class="imagecache imagecache-news_image_teaser imagecache-linked imagecache-news_image_teaser_linked"><img src="./index_files/data_protection_1.jpeg" alt="ICDP issues joint letter on e-privacy regulation" title="ICDP issues joint letter on e-privacy regulation" class="imagecache imagecache-news_image_teaser" width="160" height="160"></a>
-      </div>
-  
-
-      <h3>
-  
-    
-      <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe/news/icdp-issues-joint-letter-e-privacy-regulation">ICDP issues joint letter on e-...</a>
-      </h3>
-  
-
-      <div class="post-date">
-  
-    
-      27/03/2017 - 11:51
-      </div>
-  
-
-      <div class="teaser">
-  
-    
-      In a letter to the members of the Civil Liberties, Justice and Home Affairs Committee, the Industry Coalition...
-      </div>
-  
-    </div>
-      <div class="news-item clearfix first odd">
-      
-      <div class="image">
-  
-    
-      <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe/news/new-faces-gaming" class="imagecache imagecache-news_image_teaser imagecache-linked imagecache-news_image_teaser_linked"><img src="./index_files/ipsos_connnect_gaming_large_thumb.jpg" alt="The New Faces of Gaming" title="The New Faces of Gaming" class="imagecache imagecache-news_image_teaser" width="160" height="160"></a>
-      </div>
-  
-
-      <h3>
-  
-    
-      <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe/news/new-faces-gaming">The New Faces of Gaming</a>
-      </h3>
-  
-
-      <div class="post-date">
-  
-    
-      03/03/2017 - 15:19
-      </div>
-  
-
-      <div class="teaser">
-  
-    
-      The classic gaming demographic of a man, in his 20s, using a games console or computer, is still a key...
-      </div>
-  
-    </div>
-      </div>
-  
-  
-  
-      
-<div class="more-link">
-  <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe/news">
-    See more news  </a>
-</div>
-  
-  
-      <div class="feed-icon">
-      <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/rss_news.xml" class="feed-icon"><img src="./index_files/feed.png" alt="Syndicate content" title="News" width="16" height="16"></a>    </div>
-  
-</div>   </div>
-</div>
-  <div id="block-views-Events-block_1" class="block block-views">
-  <h2>Events</h2>
-
-  <div class="content">
-    <div class="view view-Events view-id-Events view-display-id-block_1 front-events view-dom-id-4">
-    
-  
-  
-      <div class="view-content">
-          <div class="event-item clearfix first odd">
-      
-      <div class="image">
-  
-    
-      <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/events/ep-showcase-no-games-without-data" class="imagecache imagecache-news_image_teaser imagecache-linked imagecache-news_image_teaser_linked"><img src="./index_files/poster1.png" alt="EP Showcase: No Games Without Data" title="EP Showcase: No Games Without Data" class="imagecache imagecache-news_image_teaser" width="160" height="160"></a>
-      </div>
-  
-
-      <h3>
-  
-    
-      <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/events/ep-showcase-no-games-without-data">EP Showcase: No Games Without Data</a>
-      </h3>
-  
-
-      <div class="post-date">
-  
-    
-      <span class="date-display-single">11/04/2017</span>
-      </div>
-  
-
-      <div class="teaser">
-  
-    
-      On the&nbsp;11th and 12th of April,&nbsp;ISFE organised a showcase event called&nbsp;No Games Without Data...
-      </div>
-  
-    </div>
-      </div>
-  
-  
-  
-      
-<div class="more-link">
-  <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/events">
-    See more events  </a>
-</div>
-  
-  
-  
-</div>   </div>
-</div>
-</div>
-		        
-	
-	     </div> <!--  /#content -->
-		   	</div> <!-- /#main-wrapper -->
- </div> <!-- /#page -->
-        <div id="footer-wrapper">
-      	<div id="footer" class="clearfix container_12">
-	      		<div id="footer-box" class="grid_12">
-			      										      
-				        				          <div id="footer-navigation" class="clearfix">  <div id="block-menu_block-3" class="block block-menu_block">
-  <h2>About ISFE</h2>
-
-  <div class="content">
-    <div class="menu-block-3 menu-name-primary-links parent-mlid-540 menu-level-1">
-  <ul class="menu"><li class="leaf first menu-mlid-572"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe/isfes-role" title="ISFE's role">ISFE's role</a></li>
-<li class="leaf menu-mlid-546"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe/members">Members</a></li>
-<li class="leaf menu-mlid-1421"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/organisation" title="Organisation">Organisation</a></li>
-<li class="leaf last menu-mlid-541"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/about-isfe/news" title="">News</a></li>
-</ul></div>
-  </div>
-</div>
-  <div id="block-menu_block-4" class="block block-menu_block">
-  <h2>Industry Facts</h2>
-
-  <div class="content">
-    <div class="menu-block-4 menu-name-primary-links parent-mlid-565 menu-level-1">
-  <ul class="menu"><li class="leaf first menu-mlid-1811"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/industry-facts/statistics">Statistics</a></li>
-<li class="leaf last menu-mlid-1359 has-children"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/industry-facts/research" title="Research documents">Research</a></li>
-</ul></div>
-  </div>
-</div>
-  <div id="block-menu_block-5" class="block block-menu_block">
-  <h2>Objectives</h2>
-
-  <div class="content">
-    <div class="menu-block-5 menu-name-primary-links parent-mlid-564 menu-level-1">
-  <ul class="menu"><li class="leaf first menu-mlid-567 has-children"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/objects/education" title="Education">Education</a></li>
-<li class="leaf menu-mlid-568 has-children"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/objectives/public-policy" title="Public Policy">Public Policy</a></li>
-<li class="leaf last menu-mlid-569 has-children"><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/objects/age-rating" title="Age Rating">Age Rating</a></li>
-</ul></div>
-  </div>
-</div>
-  <div id="block-nodeasblock-101" class="block block-nodeasblock">
-  <h2><a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/node/101">Contact ISFE</a></h2>
-
-  <div class="content">
-    <p><strong>Interactive Software Federation of Europe</strong></p>
-<p>15 Rue Guimard<br>B-1040 Brussels</p>
-  </div>
-</div>
-</div>
-				        				</div><!-- /#footer-box -->
-      </div> <!-- /#footer -->
-		<div id="colofon" class="container_12 clearfix">
-	    		     		 <div id="footer-message">Copyright ISFE 2011 - <a href="https://web.archive.org/web/20170603211310/http://www.isfe.eu/#">Disclaimer</a></div>
-	    		    	
-	    	<div id="puresign">
-	    	<a href="https://web.archive.org/web/20170603211310/http://puresign.be/" class="external">Webdesign Pure Sign</a>
-	    	</div>
-		</div><!-- /#colofon -->
-      
-    </div> <!-- /#footer-wrapper this is the full width wrap-->
-    
- 
-
-  <script type="text/javascript">
-<!--//--><![CDATA[//><!--
-var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-24276967-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://web.archive.org/web/20170603211310/https://ssl" : "https://web.archive.org/web/20170603211310/http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
-//--><!]]>
-</script>
-
-<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","bam.nr-data.net","33dd8aa41b","2811639","Z10GN0MHXRdTVUNdV14XMRFYSVoKVlNPGkhYSA==",0,15,new Date().getTime(),"","","","",""]);</script>
-
-
-
-<script type="text/javascript" src="./index_files/nr-100.js.download"></script><script type="text/javascript" src="./index_files/33dd8aa41b"></script></body></html>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    function toggleMenu() {
+      const nav = document.getElementById("navLinks");
+      const button = document.querySelector(".menu-toggle");
+      const isOpen = nav.classList.toggle("open");
+      button.setAttribute("aria-expanded", String(isOpen));
+    }
+    function closeMenu() {
+      document.getElementById("navLinks").classList.remove("open");
+      document.querySelector(".menu-toggle").setAttribute("aria-expanded", "false");
+    }
+  </script>
+</body>
+</html>
