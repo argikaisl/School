@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ITG-AR.COM XML Sitemap Template
+
+  HOW TO USE:
+  1. Replace each YOUR-POST-SLUG with a real, public URL from itg-ar.com.
+  2. Copy a complete <url>...</url> block for every additional post.
+  3. Remove any unused example blocks.
+  4. Save/upload this file as: sitemap.xml
+  5. Submit https://isfe.eu/sitemap.xml in Google Search Console.
+
+  IMPORTANT:
+  Add only URLs that belong to https://www.itg-ar.com/ and that you are
+  authorized to publish. Do not add third-party article URLs here.
+  A sitemap helps search engines discover URLs; it does not guarantee indexing.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://isfe.eu/</loc>
+  </url>
+
+    <url>
+    <loc>https://isfe.eu/gam/video/city-live-𝐒𝐭𝐫𝐞𝐚𝐦-ｆｒｅｅ-ｃｈａｎｎｅｌ-2-606.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-v-fulham-live-free-hd-600.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-live-football-match-647.html</loc>
+  </url>  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-ｌｉｖｅ-ｆｒｅｅ-ｏｎｌｉｎｅ-655.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-ｌｉｖｅ-ｆｒｅｅ-ｏｎｌｉｎｅ-658.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-ｌｉｖｅ-ｆｒｅｅ-ｓｔｒｅａｍ-653.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-ｌｉｖｅ-ｏｎｌｉｎｅ-ｓｔｒｅａｍ-649.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-live-on-tv-661.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-ｌｉｖｅ-ｓｔｒｅａｍ-ｆｒｅ-651.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-ｌｉｖｅ-ｓｔｒｅａｍ-ｆｒｅｅ-646.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-ｌｉｖｅ-ｓｔｒｅａｍｉｎｇ-ｆｒ-570.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-ｌｉｖｅ-𝙁𝙧𝙚𝙚-ｏｎｌｉｎ𝙚-654.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-soccer-match-li-596.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-𝐋𝐈𝐕𝐄-ｆｒｅｅ-ｓｔｒｅａｍｓ-583.html</loc>
+  </url>
+    <url>
+    <loc>https://isfe.eu/gam/video/city-vs-fulham-𝕃𝕚𝕧𝕖-ｆｒｅｅ-ｓｔｒｅａｍｓ-568.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/city-𝑳𝒊𝒗𝒆-𝒎𝒂𝒕𝒄𝒉-𝑭𝒓𝒆𝒆-𝑬𝒏𝒈𝒍𝒊𝒔𝒉-𝑷𝒓𝒆𝒎-618.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/english-premier-league-2026-ｌｉｖｅ-ｓｔｒｅａ-572.html</loc>
+  </url>  <url>
+    <loc>https://isfe.eu/gam/video/fubotv-english-premier-league-𝕃𝕚𝕧𝕖-𝒮𝒯𝑅𝐸𝒜𝑀𝒮-592.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/fulham-english-premier-league-live-str-622.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/fulham-english-premier-leagu-live-free-584.html</loc>
+  </url>
+  <url>
+    <loc>https://isfe.eu/gam/video/fulham-epl-live-𝐒𝐭𝐫𝐞𝐚𝐦-ｆｒｅｅ-ｃｈａｎ-598.html</loc>
+
+</urlset>
